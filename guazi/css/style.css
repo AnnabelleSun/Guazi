@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    color:#000;
+    font-size:14px;
+    text-decoration:none;
+    font-weight: normal;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,
+body{
+    width:100%;
+    height: 100%;
+    font-size: 625%;
+}
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    height: 0.8rem;
+    width:100%;
+    box-shadow: 0 0 0.1rem #888;
+    background-color: #fff;
+}
+.header-top{
+    height: 0.4rem;
+    display: flex;
+}
+.header-top a{
+    position: absolute;
+    width:0.4rem;
+    height: 0.4rem;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-top h1{
+    width:100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-bottom{
+    height: 0.4rem;
+    display: flex;
+}
+.header-bottom ul{
+    flex: 1;
+    display: flex;
+}
+.header-bottom li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-bottom a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-right{
+    right: 0;
+}
+.header-left{
+    left:0;
+    width:0.6rem !important;
+}
+footer{
+    position: fixed;
+    height: 0.5rem;
+    width:100%;
+    left:0;
+    bottom:0;
+    display: flex;
+    box-shadow: 0 0 0.1rem #888;
+    background-color: #fff;
+}
+footer a{
+    flex: 1;
+}
+section{
+    padding:0.8rem 0 0.4rem 0;
+}
+section dl{
+    display: flex;
+    margin:0.1rem;
+    border-bottom: 1px solid #efefef;
+}
+section dl dt{
+    flex: 1;
+    text-align: center;
+    padding-right: 0.1rem;
+    position: relative;
+}
+section dl dd{
+    flex: 2;
+}
+.logo-big{
+    font-size: 0.3rem;
+    font-weight: 800;
+    color:#aaa;
+}
+.logo-small{
+    font-weight: 800;
+    color: #aaa;
+}
+.section-car-img{
+    background-color: #eee;
+    padding:0.1rem 0;
+}
+.car-tip{
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: orangered;
+    color:#fff;
+    font-size:0.1rem;
+}
